@@ -1,7 +1,8 @@
-from PermanentEmployee import PermanentEmployee
-permanentemployee=PermanentEmployee("Grace Jacob","GH1234","Web Developer","Permenent Employee",500000)
-permanentemployee.display_details()
-permanentemployee.calculate_salary()
+from PermanentEmployee import PermanentEmployee   #import the PermenentEmpolyee class
+
+permanentemployee=PermanentEmployee("Grace Jacob","GH1234","Web Developer","Permenent Employee",500000) #created object for PermenentEmployee  class 
+permanentemployee.display_details() #call display details methord
+permanentemployee.calculate_salary() #call calculate salary methord
 
 
 
@@ -15,10 +16,10 @@ permanentemployee.calculate_salary()
 
 
 
-from ContractEmployee import ContractEmployee
-contractemployee=ContractEmployee("Nice Jacob","CHG1002","Web Developer","Contract Employee",200000)
-contractemployee.display_details()
-contractemployee.calculate_salary()
+from ContractEmployee import ContractEmployee  #imported the ContractEmployee class
+contractemployee=ContractEmployee("Nice Jacob","CHG1002","Web Developer","Contract Employee",200000)  #create object for ContractEmployee
+contractemployee.display_details()   #call display details
+contractemployee.calculate_salary()   #call calculate salary
 
 
 #output
